@@ -1,6 +1,6 @@
 <template>
 <v-container>
-    <v-toolbar flat color="primary" dark>
+    <v-toolbar flat>
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
       <v-toolbar-title>Photography</v-toolbar-title>

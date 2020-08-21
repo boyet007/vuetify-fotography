@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar color="primary"
+    <v-app-bar
       app flat
     >
         <Header /> 
@@ -8,6 +8,7 @@
 
     <v-main>
       <Hero />
+      <Gallery />
     </v-main>
   </v-app>
 </template>
@@ -15,12 +16,13 @@
 <script>
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Gallery from './components/Gallery';
 
 export default {
   name: 'App',
 
   components: {
-    Header, Hero
+    Header, Hero, Gallery,
   },
 
   data: () => ({
@@ -28,3 +30,4 @@ export default {
   }),
 };
 </script>
+

@@ -1,4 +1,18 @@
-$hijau_muda: rgb(118, 182, 177);
-body {
-    background-color: $hijau_muda;
+$hijau_muda: rgb(73, 194, 109);
+$abu_abu: rgb(223, 228, 243);
+$kuning: rgb(255, 196, 0); 
+$biru: rgb(89, 89, 206);
+
+.v-main__wrap, .v-toolbar__content {
+    background-color: $abu_abu;
+}
+
+.gallery-box {
+    h2 {
+        font-weight: bold;
+        font-size: 2rem;
+        background-color: $biru;
+        color:$kuning;
+        border: 2px solid $kuning;
+    }
 }
