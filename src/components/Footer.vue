@@ -5,7 +5,6 @@
     >
     <v-card
       flat
-      tile
       class="text-center"
     >
       <v-card-text>

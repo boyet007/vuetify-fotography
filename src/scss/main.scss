@@ -5,11 +5,7 @@ $biru: rgb(89, 89, 206);
 $hitam: black;
 $putih: rgb(255 255 255);
 
-.v-toolbar__content, .v-application--wrap {
-    background-color: $abu_abu;
-}
-
-.gallery-box, .latest-post {
+.gallery-box, .latest-post, .our-teams {
     h2 {
         text-align: center;
         font-weight: bold;
@@ -30,8 +26,4 @@ $putih: rgb(255 255 255);
     background-color: $putih;
 }
 
-.footer {
-    .v-sheet, .v-footer {
-        background-color:$putih;
-    }
-}
+.v-footer { padding: 0; }
