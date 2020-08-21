@@ -2,6 +2,8 @@ $hijau_muda: rgb(73, 194, 109);
 $abu_abu: rgb(223, 228, 243);
 $kuning: rgb(255, 196, 0); 
 $biru: rgb(89, 89, 206);
+$hitam: black;
+$putih: rgb(255 255 255);
 
 .v-main__wrap, .v-toolbar__content {
     background-color: $abu_abu;
@@ -12,14 +14,20 @@ $biru: rgb(89, 89, 206);
         text-align: center;
         font-weight: bold;
         font-size: 2rem;
-        background-color: $biru;
-        color:$kuning;
-        border: 2px solid $kuning;
+        background-color: $hijau_muda;
+        color:$hitam;
+        border: 1px solid $biru;
     }
 }
 
 .latest-post {
     .v-btn__content {
         color:$biru;
+    }
+}
+
+.footer {
+    .v-sheet, .v-footer {
+        background-color:$putih;
     }
 }
