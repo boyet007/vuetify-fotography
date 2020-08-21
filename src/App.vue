@@ -9,6 +9,7 @@
     <v-main>
       <Hero />
       <Gallery />
+      <LatestPost />
     </v-main>
   </v-app>
 </template>
@@ -17,16 +18,17 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import Gallery from './components/Gallery';
+import LatestPost from './components/LatestPost';
 
 export default {
   name: 'App',
 
   components: {
-    Header, Hero, Gallery,
+    Header, Hero, Gallery, LatestPost,
   },
 
   data: () => ({
-    //
+  
   }),
 };
 </script>
