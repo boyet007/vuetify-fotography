@@ -2,7 +2,7 @@
   <div class="container latest-post">
     <h2>Latest Post</h2>
     <v-row>
-      <v-col cols='4' v-for="item in items" :key="item.id">
+      <v-col xs='12' sm='6' md='4' v-for="item in items" :key="item.id">
          <v-card flat
           class="mx-auto"
         >

@@ -13,7 +13,7 @@
             align="center"
             justify="center"
           >
-            <div class="display-3">{{ item.title }}</div>
+            <div class="display-3 hidden-xs-only">{{ item.title }}</div>
         </v-row>
       </v-carousel-item>
   </v-carousel>
