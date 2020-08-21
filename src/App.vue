@@ -1,16 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar
-      app flat
-    >
+    <v-app-bar app flat>
         <Header /> 
     </v-app-bar>
-
-    <v-main>
-      <Hero />
-      <Gallery />
-      <LatestPost />
-    </v-main>
+    <v-container>
+      <router-view />
+    </v-container>
     <v-footer>
       <Footer />
     </v-footer>
@@ -19,16 +14,13 @@
 
 <script>
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Gallery from './components/Gallery';
-import LatestPost from './components/LatestPost';
 import Footer from './components/Footer';
 
 export default {
   name: 'App',
 
   components: {
-    Header, Hero, Gallery, LatestPost, Footer,
+    Header, Footer,
   },
 };
 </script>
